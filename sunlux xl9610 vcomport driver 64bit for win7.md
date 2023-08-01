@@ -25,7 +25,9 @@ and installed it into unknown-device  on win7 pc.
 4) goto **D:\DriversBackup**.  you will see folder named **ch34ser.inf_amd64xxxxx**.
 5) copy this folder and paste it to win7 pc.
 
-## at windows 7 pc.   install unknows device driver (scan my pc for device driver)
+https://www.prajwal.org/powershell-export-drivers-from-windows/
+
+## at windows 7 pc.   install unknows device driver 
 1) open device manager. look at unknown device.
 2) plug/unplug/plug barcode scanner.  be sure  the unknow device is your barcodeScanner.
 3) right click on unknow device > install driver
