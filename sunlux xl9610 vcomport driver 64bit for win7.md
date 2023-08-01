@@ -6,6 +6,7 @@ but it didnt auto-install for my windows 7 pc.!!
 **to solve this:**
 i extracted driver from my win10 pc.
 and installed it into unknown-device on win7 pc.
+**note:** be sure that both pc has 64bit windows.
 
 ## step to extract driver
 ### 1) learn the driver inf name.
