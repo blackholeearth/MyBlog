@@ -8,6 +8,7 @@ i extracted driver from my win10 pc.
 and installed it into unknown-device on win7 pc.
 
 ## step to extract driver
+### 1) learn the driver inf name.
 1)  put your scanner into vcp mode
     * (scan vcp mode barcode from user-manual )
 2) open  device manager .
@@ -20,8 +21,8 @@ and installed it into unknown-device on win7 pc.
 7)  check the list. learn the inf file name
 8)  bottom item was `device installed (**ch34ser.inf_amd64xxxxx**)`
 
-## how To export drivers using PowerShell from Windows 10
-1) On your Windows 10, right click Start and click Windows PowerShell (admin).
+### 2) Export drivers using PowerShell from Windows 10
+1) open PowerShell as (admin).
 2) Enter the command **Export-WindowsDriver -Online -Destination D:\DriversBackup.** 
 3) The **D:\DriversBackup** is the folder where all of your computer’s third-party drivers will be exported.
 4) goto **D:\DriversBackup**.  you will see folder named **ch34ser.inf_amd64xxxxx**.
@@ -29,7 +30,7 @@ and installed it into unknown-device on win7 pc.
 
 https://www.prajwal.org/powershell-export-drivers-from-windows/
 
-## at windows 7 pc.   install unknows device driver 
+### 3) at Windows 7 pc. install unknows device driver 
 1) open device manager. look at unknown device.
 2) plug/unplug/plug barcode scanner.  be sure  the unknow device is your barcodeScanner.
 3) right click on unknow device > install driver
