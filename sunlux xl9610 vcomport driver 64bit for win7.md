@@ -1,6 +1,6 @@
 **sunlux xl9610 barcode scanner, vcom-port (vcp) driver 64bit for win7**
 
-when u scan vcp mode user-manual, it automatically installs driver to windows 10.
+when u scan vcp mode barcode from user-manual, it automatically installs driver to windows 10.
 but it didnt auto-install for my windows 7 work pc.!!
 
 to solve this:
@@ -8,15 +8,17 @@ i extracted auto-installed driver from my win10 pc.
 and installed it into unknown-device  on win7 pc.
 
 ## step to extract driver
-1) open  device manager .
-2) menu > view > [check] show hidden devices
-3) yourPcName
+1)  put your scanner into vcp mode
+    * (scan vcp mode barcode from user-manual )
+2) open  device manager .
+3) menu > view > [check] show hidden devices
+4) yourPcName
    * connection points(com, lpt )
       * **usb serial ch341a (comNo)**
 5) learn the driver name of barcodeScanner .  mine was  **usb serial ch341a (comNo)**
 6) right-click > properties  (new window opens)> event tab
 7)  check the list. learn the inf file name
-8)  bottom item was device installed (**ch34ser.inf_amd64xxxxx**)
+8)  bottom item was `device installed (**ch34ser.inf_amd64xxxxx**)`
 
 ## how To export drivers using PowerShell from Windows 10
 1) On your Windows 10, right click Start and click Windows PowerShell (admin).
