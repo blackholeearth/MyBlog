@@ -4,8 +4,8 @@ when u scan vcp mode barcode from user-manual, it automatically installs driver 
 but it didnt auto-install for my windows 7 pc.!!
 
 **to solve this:**
-i extracted auto-installed driver from my win10 pc.
-and installed it into unknown-device  on win7 pc.
+i extracted driver from my win10 pc.
+and installed it into unknown-device on win7 pc.
 
 ## step to extract driver
 1)  put your scanner into vcp mode
