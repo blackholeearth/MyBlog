@@ -1,7 +1,7 @@
 **sunlux xl9610 barcode scanner, vcom-port (vcp) driver 64bit for win7**
 
 when u scan vcp mode barcode from user-manual, it automatically installs driver to windows 10.
-but it didnt auto-install for my windows 7 work pc.!!
+but it didnt auto-install for my windows 7 pc.!!
 
 to solve this:
 i extracted auto-installed driver from my win10 pc.
