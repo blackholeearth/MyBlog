@@ -7,3 +7,10 @@ solutions for problems that i encounter
   
  [install sunlux xl 9610 vcp driver to windows 7 ](https://github.com/blackholeearth/MyBlog/blob/master/sunlux%20xl9610%20vcomport%20driver%2064bit%20for%20win7.md)  
 
+
+
+ [Extract hardcoded subtitle from video](https://github.com/blackholeearth/MyBlog/blob/master/Extract%20hardcoded%20subtitle%20from%20video.md)
+ 
+ 
+
+
