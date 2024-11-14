@@ -13,4 +13,4 @@ solutions for problems that i encounter
  
  
 
- [One Commander 3 -install Light_2 Theme ](https://github.com/blackholeearth/MyBlog/blob/master/OneCommander3_install_Light_2_Theme.md)
+ [One Commander 3 -install Light_2 Theme ](Light2/OneCommander3_install_Light_2_Theme.md)
