@@ -11,7 +11,8 @@ in your c# project ,
    install >  
    FirebirdSql.Data.FirebirdClient    **version 5.8.1** or lower   // version level important.
 
-3- go to webpage:  https://firebirdsql.org/en/firebird-3-0/   -> "exact version url": https://firebirdsql.org/en/firebird-3-0-3/
+3- go to webpage:  https://firebirdsql.org/en/firebird-3-0/
+      - "exact version url": https://firebirdsql.org/en/firebird-3-0-3/
  - get zip file  	**Firebird-3.0.3.xxxxx_Win32.zip** 	 
    extract zip  to   folder in your project debug/firebird_3x_embedFiles/
    
