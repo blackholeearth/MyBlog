@@ -11,7 +11,7 @@ in your c# project ,
    install >  
    FirebirdSql.Data.FirebirdClient    **version 5.8.1** or lower   // version level important.
 
-3- go to webpage:  https://firebirdsql.org/en/firebird-3-0/
+3- go to webpage:  https://firebirdsql.org/en/firebird-3-0/   -> "exact version url": https://firebirdsql.org/en/firebird-3-0-3/
  - get zip file  	**Firebird-3.0.3.xxxxx_Win32.zip** 	 
    extract zip  to   folder in your project debug/firebird_3x_embedFiles/
    
@@ -49,6 +49,6 @@ in your c# project ,
 ### if you Get this error -> "Incompatible wire encryption levels requested on client and server
 
 1) add  **WireCrypt = Disabled** in  **firebird.conf**
-   * file is here: C:\Program Files (x86)\Firebird\Firebird_5_0\firebird.conf"
+   * file is here: C:\Program Files (x86)\Firebird\Firebird_3_0\firebird.conf"
 2) open **services.msc**
    * Find **Firebird Server** > rightClick > **Restart**.
