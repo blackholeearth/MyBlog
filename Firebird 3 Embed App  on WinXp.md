@@ -44,4 +44,11 @@ in your c# project ,
  
  
  ```
- 
+
+
+### if you Get this error -> "Incompatible wire encryption levels requested on client and server
+
+1) add  **WireCrypt = Disabled** in  **firebird.conf**
+   * file is here: C:\Program Files (x86)\Firebird\Firebird_5_0\firebird.conf"
+2) open **services.msc**
+   * Find **Firebird Server** > rightClick > **Restart**.
